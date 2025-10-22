@@ -38,7 +38,6 @@ HTML
             </div>
         </nav>
     </header>
-
     <!-- Home Page -->
     <div id="home" class="page active">
         <section class="hero">
@@ -50,7 +49,6 @@ HTML
                 <a href="#" class="btn btn-custom btn-secondary-custom ms-2" onclick="showPage('about')">More About Me</a>
             </div>
         </section>
-
         <section class="container">
             <h2>Keahlian Utama</h2>
             <div class="row g-4">
@@ -85,7 +83,6 @@ HTML
             </div>
         </section>
     </div>
-
     <!-- About Page -->
     <div id="about" class="page">
         <section class="container">
@@ -119,7 +116,6 @@ HTML
                     </div>
                 </div>
             </div>
-
             <div style="margin-top: 4rem;">
                 <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;">Skill & Teknologi</h3>
                 <div style="text-align: center;">
@@ -140,7 +136,6 @@ HTML
             </div>
         </section>
     </div>
-
     <!-- Projects Page -->
     <div id="projects" class="page">
         <section class="container">
@@ -160,7 +155,6 @@ HTML
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="card-custom">
                         <div><img src="Screenshot Praktek web TI.png" alt="Gambar Web TI" style="height: 150px; border-radius: 8px; margin-bottom: 1rem;"></div>
@@ -173,7 +167,6 @@ HTML
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="card-custom">
                         <div><img src="Screenshot Hasil CV Kreatif.png" alt="Gambar CV Kreatif Sederhana" style="height: 150px; border-radius: 8px; margin-bottom: 1rem;"></div>
@@ -188,7 +181,6 @@ HTML
             </div>
         </section>
     </div>
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -196,15 +188,13 @@ HTML
             <p style="margin-top: 1rem; font-size: 0.9rem;">24051204206@mhs.unesa.ac.id +62 822-3310-5822</p>
         </div>
     </footer>
-
     <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
     <script src="projectmandiri.js"></script>
 </body>
 </html>
 
 
-CSS
-
+# CSS
 
 * {
     margin: 0;
@@ -453,11 +443,9 @@ footer a:hover {
     .hero h1 {
         font-size: 2.5rem;
     }
-
     .hero p {
         font-size: 1.1rem;
     }
-
     section h2 {
         font-size: 2rem;
     }
@@ -469,15 +457,11 @@ JavaScript
 function showPage(pageName) {
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => page.classList.remove('active'));
-    
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => link.classList.remove('active'));
-    
     document.getElementById(pageName).classList.add('active');
-    
     const activeLink = document.querySelector(`a[onclick="showPage('${pageName}')"]`);
     if (activeLink) activeLink.classList.add('active');
-    
     window.scrollTo(0, 0);
 }
 
