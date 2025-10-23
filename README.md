@@ -87,17 +87,17 @@ cd portfolio-website
 ## Screenshot
 
 ### Home Page
-![Home Screenshot](Screenshot Home 1+navbar.png)
-![Home Screenshot](Screenshot Home 2+footer.png)
+![Home Screenshot]("Screenshot Home 1+navbar.png")
+![Home Screenshot]("Screenshot Home 2+footer.png")
 
 ### About Page
-![About Screenshot](Screenshot About 1+navbar.png)
-![About Screenshot](Screenshot About 2.png)
-![About Screenshot](Screenshot About 3+footer.png)
+![About Screenshot]("Screenshot About 1+navbar.png")
+![About Screenshot]("Screenshot About 2.png")
+![About Screenshot]("Screenshot About 3+footer.png")
 
 ### Projects Page
-![Projects Screenshot](Screenshot Project 1+navbar.png)
-![Projects Screenshot](Screenshot Project 2+footer.png)
+![Projects Screenshot]("Screenshot Project 1+navbar.png")
+![Projects Screenshot]("Screenshot Project 2+footer.png")
 
 ## Video Demo
 
