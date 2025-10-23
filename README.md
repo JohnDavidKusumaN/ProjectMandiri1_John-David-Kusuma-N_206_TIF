@@ -41,7 +41,7 @@ cd portfolio-website
 ```
 
 ### 2. Buka di Browser
-- Cukup double-click file `index.html`
+- Cukup double-click file `projectmandiri.html`
 - atau klik kanan → Open with → Browser
 
 ### 3. Navigasi Website
