@@ -7,22 +7,22 @@ Website portofolio pribadi yang dibuat sebagai tugas front-end web development d
 Website ini menampilkan profil pribadi seorang developer dengan fitur-fitur interaktif. Terdiri dari 3 halaman utama yang saling terhubung:
 - **Home**: Halaman beranda dengan hero section dan keahlian utama
 - **Tentang**: Profil singkat, pengalaman kerja, dan skill/teknologi
-- **Proyek**: Showcase proyek-proyek terbaru dengan deskripsi
+- **Proyek**: Menampilkan proyek-proyek yang sudah dikerjakan dengan deskripsi
 
 ## Fitur Utama
 
-- Responsive Design (Mobile, Tablet, Desktop)
-- Dark Theme Modern dengan Gradient Colors
+- Design yang responsif (Mobile, Tablet, Desktop)
+- Pemilihan warna yang bagus dengan Gradient Colors
 - Navigasi Interaktif dengan Page Switching
-- Smooth Animations & Hover Effects
-- Bootstrap Framework Integration
-- Clean & Organized Code Structure
+- Animasi yang smooth dan efek hovernya 
+- Penggunaan Bootstrap Framework
+- Struktur pemrograman yang rapih
 
-## Teknologi yang Digunakan
+## Alat" yang Digunakan
 
 ### Frontend
-- **HTML5** - Struktur semantic halaman
-- **CSS3** - Styling custom dengan CSS Variables
+- **HTML** - Struktur semantic halaman
+- **CSS** - Styling custom dengan CSS Variables
 - **JavaScript** - Interaktivitas page switching & mobile menu
 - **Bootstrap 5.3** - CSS Framework untuk responsive design
 - **Font Awesome 6.4** - Icon library
@@ -32,7 +32,7 @@ Website ini menampilkan profil pribadi seorang developer dengan fitur-fitur inte
 - **Git** - Version Control
 - **GitHub** - Repository Hosting
 
-## Cara Menggunakan
+## Cara Mengaplikasikannya
 
 ### 1. Clone Repository
 ```bash
@@ -105,8 +105,8 @@ Tonton demo lengkap website di: [Link Video YouTube](https://youtube.com/...)
 
 Akan menampilkan:
 - Navigasi antar halaman
-- Responsive design (desktop → mobile)
-- Smooth animations & hover effects
+- Design yang responsif (desktop → mobile)
+- Animasi yang smooth dan efek hover
 - Code walkthrough singkat
 
 ## Penulis
