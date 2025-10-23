@@ -101,7 +101,7 @@ cd portfolio-website
 
 ## Video Demo
 
-Tonton demo lengkap website di: [Link Video YouTube][(https://youtube.com/...)](https://youtu.be/1PjWZURVfRA)
+Tonton demo lengkap website di: [Link Video YouTube][(https://youtu.be/1PjWZURVfRA)]
 
 Akan menampilkan:
 - Navigasi antar halaman
