@@ -97,7 +97,7 @@ cd portfolio-website
 
 ### Projects Page
 ![Projects Screenshot]("Screenshot Project 1+navbar.png")
-![Projects Screenshot]("C:\Users\David\OneDrive\Documents\website-portofolio\Screenshot Project 2+footer.png")
+![Projects Screenshot]("Screenshot Project 2+footer.png")
 
 ## Video Demo
 
