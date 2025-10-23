@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio John David</title>
+    <link href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="styleprojectmandiri.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Web Portofolio John David</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" onclick="showPage('home')">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showPage('about')">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showPage('projects')">Proyek</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>John David Kusuma Novianto</h1>
+                <p>24051204206</p>
+                <p>Mahasiswa S1 Teknik Informatika Universitas Negeri Surabaya</p>
+                <a href="#" class="btn btn-custom btn-primary-custom" onclick="showPage('projects')">Proyek Saya</a>
+                <a href="#" class="btn btn-custom btn-secondary-custom ms-2" onclick="showPage('about')">More About Me</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Keahlian Utama</h2>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-code" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-database" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                        <h3>Backend</h3>
+                        <p>Node.js, Python, Java</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-palette" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                        <h3>Design</h3>
+                        <p>Canva, Figma, CapCut</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-tools" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                        <h3>Tools</h3>
+                        <p>Visual Studio Code, Google Colab, GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <section class="container">
+            <h2>Tentang Saya</h2>
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <h3>Profil Singkat</h3>
+                        <p>Saya adalah seorang mahasiswa S1 program studi Teknik Informatika angkatan 24 dan memiliki passion di bidang teknologi dan inovasi. Saya memiliki latar belakang di bidang Networking karena jenjang saya sebelumnya yaitu saat SMK, saya telah mengerjakan beberapa proyek untuk memenuhi penilaian selama masa perkuliahan.</p>
+                        <q><i>Pemrograman bukan tentang apa yang Anda ketahui; ini tentang apa yang dapat Anda cari tahu.</i></q> <p>- Chris Pine</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom">
+                        <h3>Pengalaman Pembelajaran</h3>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--primary-color);">Interaksi Manusia dan Komputer</h4>
+                            <p style="color: #94a3b8; margin-bottom: 0.5rem;">Semester 1</p>
+                            <p>Mempelajari prinsip-prinsip desain antarmuka pengguna (UI), evaluasi kegunaan sistem, faktor psikologis pengguna, serta proses merancang dan membangun aplikasi yang berpusat pada pengguna</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--primary-color);">Pemrograman Berorientasi Obyek</h4>
+                            <p style="color: #94a3b8; margin-bottom: 0.5rem;">Semester 2</p>
+                            <p>Mempelajari konsep dasar PBO seperti kelas, objek, enkapsulasi, pewarisan, dan polimorfisme</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--primary-color);">Pemrograman Berbasis Platform</h4>
+                            <p style="color: #94a3b8; margin-bottom: 0.5rem;">Semester 3</p>
+                            <p>Mempelajari perancangan, pengembangan, dan evaluasi aplikasi untuk berbagai platform seperti web, desktop, dan mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem;">
+                <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;">Skill & Teknologi</h3>
+                <div style="text-align: center;">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Java</span>
+                    <span class="skill-badge">CSS Framework</span>
+                    <span class="skill-badge">Phyton</span>
+                    <span class="skill-badge">Networking</span>
+                    <span class="skill-badge">Fiber Optic</span>
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">Cisco Packet Tracer</span>
+                    <span class="skill-badge">Bootstrap</span>
+                    <span class="skill-badge">Visual Studio Code</span>
+                    <span class="skill-badge">Google Colab</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects Page -->
+    <div id="projects" class="page">
+        <section class="container">
+            <h2>Proyek Yang Sudah Dikerjakan</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom">
+                        <div><img src="Screenshot proyek Kalkulator.png" alt="Gambar Kalkulator" style="height: 150px; border-radius: 8px; margin-bottom: 1rem;"></div>
+                        <h3>Kalkulator Sederhana</h3>
+                        <p>Website Kalkulator sederhana yang bisa mengoperasikan 1 angka dengan 1 angka yang lain dengan 4 jenis operasi bilangan seperti penjumlahan, pengurangan, perkalian, dan pembagian</p>
+                        <div style="margin-top: 1rem;">
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">CSS Framework</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom">
+                        <div><img src="Screenshot Praktek web TI.png" alt="Gambar Web TI" style="height: 150px; border-radius: 8px; margin-bottom: 1rem;"></div>
+                        <h3>Website Jurusan TI</h3>
+                        <p>Praktek membuat website home TI semirip mungkin menggunakan HTML dan CSS secara mandiri</p>
+                        <div style="margin-top: 1rem;">
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom">
+                        <div><img src="Screenshot Hasil CV Kreatif.png" alt="Gambar CV Kreatif Sederhana" style="height: 150px; border-radius: 8px; margin-bottom: 1rem;"></div>
+                        <h3>CV Kreatif</h3>
+                        <p>Membuat CV Kreatif menggunakan HTML dan CSS Sederhana yang ada dalam cheatsheet CSS</p>
+                        <div style="margin-top: 1rem;">
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio John David Kusuma Novianto.</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">24051204206@mhs.unesa.ac.id +62 822-3310-5822</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+    <script src="projectmandiri.js"></script>
+</body>
+</html>
