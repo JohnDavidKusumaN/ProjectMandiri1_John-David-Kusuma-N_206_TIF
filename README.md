@@ -36,7 +36,7 @@ Website ini menampilkan profil pribadi seorang developer dengan fitur-fitur inte
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/portfolio-website.git
+git clone https://github.com/JohnDavidKusumaN/portfolio-website.git
 cd portfolio-website
 ```
 
@@ -51,19 +51,19 @@ cd portfolio-website
 
 ## Fitur Interaktif
 
-### JavaScript Implementation
+### Pengaplikasian JavaScript 
 - **Page Navigation**: Switching halaman tanpa reload
 - **Mobile Menu**: Navbar collapse otomatis di mobile
 - **Smooth Scrolling**: Scroll ke top saat pindah halaman
 - **Active Navigation**: Indicator halaman yang aktif
 
-### CSS Animations
+### Tambahan CSS 
 - **Hero Section**: Floating background animation
 - **Fade In**: Smooth transition saat load halaman
 - **Card Hover**: Lift effect saat hover di card
 - **Button Hover**: Transform effect dengan shadow
 
-## CSS Framework (Bootstrap) Usage
+## Penggunaan CSS Framework (Bootstrap) 
 
 ### Grid System
 ```html
@@ -97,7 +97,7 @@ cd portfolio-website
 
 ### Projects Page
 ![Projects Screenshot]("Screenshot Project 1+navbar.png")
-![Projects Screenshot]("Screenshot Project 2+footer.png")
+![Projects Screenshot]("C:\Users\David\OneDrive\Documents\website-portofolio\Screenshot Project 2+footer.png")
 
 ## Video Demo
 
